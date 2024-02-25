@@ -37,6 +37,7 @@ else if(input == 2){
 
 else if(input == 3){
     if(StrList_size(listP)!=0) StrList_print(listP);
+    else printf("\n");
 }
 
 else if(input == 4){printf("%ld\n",StrList_size(listP));}
